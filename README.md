@@ -33,6 +33,8 @@ flowchart TD
     style D2 fill:#fff3e0
 ```
 
+![](./img/architecture_diagram.png)
+
 ## 코드의 목적
 
 이 테스트 코드는 Strands Agents의 다음 기능들을 검증합니다:
@@ -156,17 +158,6 @@ python auto_multi_agent_test.py
 
 - **scipy/라이브러리 오류**: Agent가 자동으로 대체 방법 사용 (정상 동작)
 
-## 시각적 다이어그램 생성
-
-더 상세한 시각적 다이어그램을 원한다면:
-
-```bash
-# Diagrams 라이브러리 설치
-pip install diagrams
-
-# 아키텍처 다이어그램 생성
-python architecture_diagram.py
-```
 
 ## 파일 구성
 
